@@ -1,0 +1,10 @@
+a = int(input("enter 1st number:"))
+b = int(input("enter 2nd number:"))
+
+result = 1
+count = 0
+while count < b:
+    result = result * a
+    count += 1
+
+print(a, "^", b, "=", result)
